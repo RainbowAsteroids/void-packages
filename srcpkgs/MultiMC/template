@@ -10,7 +10,7 @@ build_style=cmake
 configure_args='-DMultiMC_BUILD_PLATFORM=Void -DMultiMC_LAYOUT=lin-system'
 hostmakedepends="openjdk8 xxd git qt5-qmake qt5-host-tools tar"
 makedepends="qt5-devel qt5-x11extras-devel qt5-svg-devel gtk+-devel"
-depends="virtual?java-environment qt5-svg"
+depends="virtual?java-environment qt5-svg xrandr"
 short_desc="Instanced Minecraft client"
 maintainer="Henry Naguski <henry@nilsu.org>"
 license="Apache-2.0"
